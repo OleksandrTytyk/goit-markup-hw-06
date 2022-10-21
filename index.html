@@ -525,7 +525,7 @@
             </label>
           </div>
 
-          <div class="form-field">
+          <div class="form-field-textarea">
             <label>
               <span class="form-comment">Коментар</span>
             </label>
@@ -538,11 +538,16 @@
           </div>
 
           <div class="form-checkbox">
-            <input type="checkbox" name="checkbox" class="checkbox-input"/>
-            <label class="checkbox-label">
-              <span class="checkbox-text">Погоджуюся з розсилкою та приймаю</span>
+            <label class="check-label">
+              <input type="checkbox" name="checkbox" class="check-input visually-hidden" />
+              <span class="check-custom">
+                <svg class="check-icon" width="16" height="15">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              Погоджуюся з розсилкою та приймаю
             </label>
-            <a href="" class="checkbox-link">Умови договору</a>
+            <a class="check-link" href="">Умови договору</a>
           </div>
 
           <button type="submit" class="form-button">Відправити</button>
